@@ -1,0 +1,419 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "4D Write Pro: AI Writing Tools & Multi-Level Lists",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"DemoTabs": {
+					"type": "tab",
+					"top": 12,
+					"left": 224,
+					"width": 852,
+					"height": 28,
+					"sizingX": "grow",
+					"labels": [
+						"Introduction",
+						"Write Pro"
+					],
+					"action": "gotoPage"
+				},
+				"Static Picture2": {
+					"type": "picture",
+					"top": 50,
+					"left": 16,
+					"width": 1341,
+					"height": 800,
+					"picture": "/RESOURCES/IntroIcons/WebinarIntro_Background.png",
+					"pictureFormat": "scaled"
+				}
+			}
+		},
+		{
+			"objects": {
+				"WebinarTitle": {
+					"type": "text",
+					"top": 255,
+					"left": 277,
+					"width": 819,
+					"height": 54,
+					"sizingX": "grow",
+					"text": "4D Write Pro: Apple Writing Tools & Multi-Level Lists",
+					"fontFamily": "Arial",
+					"fontSize": 30,
+					"fontStyle": "bold",
+					"horizontalAlignment": "center",
+					"verticalAlignment": "center",
+					"focusable": false,
+					"textAlign": "center",
+					"fontWeight": "bold"
+				},
+				"WebinarIntro1": {
+					"type": "text",
+					"top": 412,
+					"left": 441,
+					"width": 562,
+					"height": 56,
+					"sizingX": "grow",
+					"text": "In the 4D 21 R4 webinar, we explored how Apple Writing Tools work directly inside 4D Write Pro. We saw how to compose, rewrite, and adjust the tone of content without switching applications or managing API keys.",
+					"fontFamily": "Arial",
+					"fontSize": 16,
+					"horizontalAlignment": "left",
+					"verticalAlignment": "top",
+					"focusable": false,
+					"textAlign": "justify"
+				},
+				"WebinarIntro1Icon": {
+					"type": "picture",
+					"top": 413,
+					"left": 372,
+					"width": 55,
+					"height": 55,
+					"picture": "/RESOURCES/IntroIcons/WebinarIntro1.png",
+					"scalingMode": "scaleToFit",
+					"focusable": false,
+					"pictureFormat": "scaled"
+				},
+				"WebinarIntro2": {
+					"type": "text",
+					"top": 483,
+					"left": 441,
+					"width": 562,
+					"height": 56,
+					"sizingX": "grow",
+					"text": "We then built a professional Eiffel Tower brochure using multi-level style sheets, predefined templates, custom multi-level styles, toolbar controls, and the multiLevelStyles.json resource file.",
+					"fontFamily": "Arial",
+					"fontSize": 16,
+					"horizontalAlignment": "left",
+					"verticalAlignment": "top",
+					"focusable": false,
+					"textAlign": "justify"
+				},
+				"WebinarIntro2Icon": {
+					"type": "picture",
+					"top": 484,
+					"left": 372,
+					"width": 55,
+					"height": 55,
+					"picture": "/RESOURCES/IntroIcons/WebinarIntro2.png",
+					"scalingMode": "scaleToFit",
+					"focusable": false,
+					"pictureFormat": "scaled"
+				},
+				"WebinarIntro3": {
+					"type": "text",
+					"top": 573,
+					"left": 441,
+					"width": 562,
+					"height": 19,
+					"sizingX": "grow",
+					"text": "The final document was customized in 4D Write Pro and exported as a PDF.",
+					"fontFamily": "Arial",
+					"fontSize": 16,
+					"horizontalAlignment": "left",
+					"verticalAlignment": "top",
+					"focusable": false,
+					"textAlign": "justify"
+				},
+				"WebinarIntro3Icon": {
+					"type": "picture",
+					"top": 555,
+					"left": 372,
+					"width": 55,
+					"height": 55,
+					"picture": "/RESOURCES/IntroIcons/WebinarIntro3.png",
+					"scalingMode": "scaleToFit",
+					"focusable": false,
+					"pictureFormat": "scaled"
+				},
+				"GoToDemo": {
+					"type": "button",
+					"top": 674,
+					"left": 538,
+					"width": 280,
+					"height": 81,
+					"title": "Go to demo page",
+					"fontFamily": "Arial",
+					"fontSize": 16,
+					"method": "ObjectMethods/GoToDemo.4dm",
+					"events": [
+						"onClick"
+					],
+					"text": "Try it Yourself! →",
+					"style": "custom",
+					"stroke": "#FFFFFF",
+					"textPlacement": "center",
+					"imageHugsTitle": false,
+					"iconFrames": 1,
+					"icon": "/RESOURCES/IntroIcons/WebinarIntro_Button_280x100.png"
+				},
+				"WebinarIntro_Title": {
+					"type": "picture",
+					"top": 136,
+					"left": 616,
+					"width": 129,
+					"height": 93,
+					"picture": "/RESOURCES/IntroIcons/WebinarIntro_Title.png",
+					"pictureFormat": "scaled"
+				},
+				"TitleLine": {
+					"type": "line",
+					"top": 309,
+					"left": 598,
+					"width": 177,
+					"height": 0,
+					"stroke": "#6495ED",
+					"strokeWidth": 4,
+					"startPoint": "topLeft"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Static Picture4": {
+					"type": "picture",
+					"top": 462,
+					"left": 1014,
+					"width": 335,
+					"height": 221,
+					"picture": "/RESOURCES/DemoIcons/card-background.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture3": {
+					"type": "picture",
+					"top": 286,
+					"left": 1014,
+					"width": 335,
+					"height": 176,
+					"picture": "/RESOURCES/DemoIcons/card-background.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 150,
+					"left": 1014,
+					"width": 335,
+					"height": 136,
+					"picture": "/RESOURCES/DemoIcons/card-background.png",
+					"pictureFormat": "scaled"
+				},
+				"WParea": {
+					"type": "write",
+					"top": 150,
+					"left": 24,
+					"width": 979,
+					"height": 654,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dpi": 0,
+					"method": "ObjectMethods/WParea.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					],
+					"borderStyle": "none",
+					"dataSource": "WParea"
+				},
+				"WPtoolbar": {
+					"type": "subform",
+					"top": 60,
+					"left": 24,
+					"width": 979,
+					"height": 90,
+					"sizingX": "grow",
+					"detailForm": "WP_Toolbar",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"OpenFinalWritePro": {
+					"type": "button",
+					"top": 577,
+					"left": 1034,
+					"width": 293,
+					"height": 35,
+					"title": "Open final Write Pro file",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"method": "ObjectMethods/OpenFinalWritePro.4dm",
+					"events": [
+						"onClick"
+					],
+					"dataSource": "",
+					"text": "Import Final Write Pro Document"
+				},
+				"OpenMultiLevelStyles": {
+					"type": "button",
+					"top": 399,
+					"left": 1034,
+					"width": 293,
+					"height": 35,
+					"title": "Open multiLevelStyles.json",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"method": "ObjectMethods/OpenMultiLevelStyles.4dm",
+					"events": [
+						"onClick"
+					],
+					"text": "Open MultiLevelStyles.json"
+				},
+				"OpenParisPDF": {
+					"type": "button",
+					"top": 619,
+					"left": 1034,
+					"width": 293,
+					"height": 35,
+					"title": "Open Paris.pdf",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"method": "ObjectMethods/OpenParisPDF.4dm",
+					"events": [
+						"onClick"
+					],
+					"text": "Open Paris.pdf"
+				},
+				"DemoText1": {
+					"type": "text",
+					"text": "Follow the webinar step by step and try each feature in the empty 4D Write Pro area to the left.",
+					"top": 214,
+					"left": 1079,
+					"width": 248,
+					"height": 62,
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"textAlign": "left",
+					"verticalAlignment": "top",
+					"focusable": false
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Final Results",
+					"top": 490,
+					"left": 1079,
+					"width": 222,
+					"height": 24,
+					"fontSize": 15,
+					"fontWeight": "bold"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Customization",
+					"top": 314,
+					"left": 1079,
+					"width": 270,
+					"height": 16,
+					"fontSize": 15,
+					"fontWeight": "bold"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Get Started",
+					"top": 178,
+					"left": 1079,
+					"width": 116,
+					"height": 16,
+					"fontSize": 15,
+					"fontWeight": "bold"
+				},
+				"Static Picture5": {
+					"type": "picture",
+					"top": 162,
+					"left": 1026,
+					"width": 50,
+					"height": 50,
+					"picture": "/RESOURCES/DemoIcons/WebinarDemo1.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture6": {
+					"type": "picture",
+					"top": 298,
+					"left": 1026,
+					"width": 50,
+					"height": 50,
+					"picture": "/RESOURCES/DemoIcons/WebinarDemo2.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture7": {
+					"type": "picture",
+					"top": 477,
+					"left": 1026,
+					"width": 50,
+					"height": 50,
+					"picture": "/RESOURCES/DemoIcons/WebinarDemo3.png",
+					"pictureFormat": "scaled"
+				},
+				"DemoText2": {
+					"type": "text",
+					"text": "Choose which predefined multi-level list templates to show in the toolbar dropdown.",
+					"top": 350,
+					"left": 1079,
+					"width": 248,
+					"height": 31,
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"textAlign": "left",
+					"verticalAlignment": "top",
+					"focusable": false
+				},
+				"DemoText3": {
+					"type": "text",
+					"text": "Review the finished brochure in 4D Write Pro or open the exported PDF.",
+					"top": 534,
+					"left": 1079,
+					"width": 248,
+					"height": 31,
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"textAlign": "left",
+					"verticalAlignment": "top",
+					"focusable": false
+				}
+			}
+		}
+	],
+	"geometryStamp": 294,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
